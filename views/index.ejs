@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title %></title>
+    <%- include('components/metadata'); %>
 </head>
 <body>
-    <header>
-        <img src="image/logo.png" alt="Logo" class="logo">
-        <h1><%= title %></h1>
-        <a href="new">Add Post</a>
-    </header>
+    <%- include('components/header'); %>
     <main>
         <header>
             <h2>Main message board</h2>
@@ -29,6 +23,9 @@
                 </p>
             </div>
         <% } %>
+        <div>
+            <a href="/new">Create new post</a>
+        </div>
     </main>
 </body>
 </html>
