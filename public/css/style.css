@@ -141,6 +141,7 @@ textarea {
     font-size: 1em;
     background-color: #fdfbf5;
     font-family: 'Times New Roman', serif;
+    resize: vertical;
 }
 
 /* Button styles */
