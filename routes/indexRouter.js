@@ -23,6 +23,6 @@ indexRouter.post('/new', (req, res) => {
 
     messages.push({ text, user, added: new Date() });
     res.redirect('/');
-})
+});
 
 module.exports = indexRouter;

@@ -4,9 +4,8 @@
     <%- include('components/metadata'); %>
 </head>
 <body>
-    <%- include('components/header'); %>
     <form action="/new" method="POST">
-        <h2>Join the conversation!</h2>
+        <%- include('components/header'); %>
         <label for="name">
             <span>Username:</span>
             <input type="text" id="name" name="name" required />
@@ -15,7 +14,8 @@
             <span>Message:</span>
             <textarea type="text" id="message" name="message" required></textarea>
         </label>
-        <button type="submit"></button>
+        <br>
+        <button type="submit">Submit</button>
     </form>    
 </body>
 </html>

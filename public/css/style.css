@@ -1,0 +1,164 @@
+/* General styles */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f5f0e1;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+#header {
+    background-color: #222;
+    color: #f5f0e1;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Main section */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fdfbf5;
+    padding: 20px;
+    border: 2px solid #222;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Subheader */
+h2 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #222;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Message styles */
+.message {
+    background-color: #fdfbf5;
+    border: 2px solid #222;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Message header */
+.message header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.message h3 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.message time {
+    font-size: 0.9em;
+    color: #444;
+}
+
+/* Message content */
+.message-content {
+    font-size: 1em;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Create post button */
+a {
+    display: block;
+    text-align: center;
+    background-color: #222;
+    color: #f5f0e1;
+    padding: 10px 15px;
+    border: 2px solid #222;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #444;
+}
+
+/* Form container */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fdfbf5;
+    padding: 20px;
+    border: 2px solid #222;
+    border-radius: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Times New Roman', serif;
+}
+
+/* Form header */
+h2 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    text-transform: uppercase;
+    border-bottom: 2px solid #222;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Labels and inputs */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Georgia', serif;
+}
+
+span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #222;
+    border-radius: 0;
+    font-size: 1em;
+    background-color: #fdfbf5;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Button styles */
+button {
+    display: block;
+    width: 100%;
+    background-color: #222;
+    color: #f5f0e1;
+    padding: 12px;
+    border-radius: 0;
+    border: 2px solid #222;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Georgia', serif;
+}
+
+button:hover {
+    background-color: #444;
+}

@@ -4,11 +4,11 @@
     <%- include('components/metadata'); %>
 </head>
 <body>
-    <%- include('components/header'); %>
     <main>
-        <header>
+        <%- include('components/header'); %>
+        <!-- <header>
             <h2>Main message board</h2>
-        </header>
+        </header> -->
         <% for (let i = 0; i < messages.length; i++) { %>
          <% const msg = messages[i]; %>
             <div class="message">
